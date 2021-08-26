@@ -21,7 +21,7 @@ h1{
 p{
     text-align: center;
     color: white;
-    margin-bottom: 57.25px;
+    margin-bottom: 24.62px;
 }
 
 .btn{
@@ -45,4 +45,64 @@ p{
 .conto{
     background-image: url(./main-bg.jpg);
     background-size: cover;
+}
+
+.segitiga1{
+    height:0px;
+    width:0px;
+    border-top:solid 30px white;
+    border-left:solid 20px transparent;
+    border-right:solid 20px transparent;
+}
+
+.box1{
+    
+    padding-bottom: 52.12px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.box2{
+    
+    display: inline-block;
+}
+
+.box3{
+    background-image: url(./the-games-bg.jpg);
+    background-size: cover;
+    border: 1px solid red;
+    display: flex;
+}
+
+h3{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 13.56px;
+}
+
+.container3{
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 254.81px;
+    margin-left: 83.56px;
+}
+
+#thegame{
+    color: white;
+    font-size: 56px;
+}
+
+.container4{
+    background-image: url(./rockpaperstrategy-1600.jpg);
+    border: 1px solid yellow;
+    position: relative;
+    background-size: cover;
+    display: inline-block;
+    width: 858px;
+    height: 477px;
+    margin-top: 282.02px;
+    margin-left: 4.39px;
 }
