@@ -139,6 +139,7 @@ img{
 .container5{
     background-image: url(./features.jpg);
     background-size: cover;
+    text-align: right;
 }
 
 .carousel-indicators button{
@@ -160,3 +161,21 @@ img{
     height: 400px;
 }
 
+.feature1{
+    color: yellow;
+    
+}
+.FEATURES{
+    color: white;
+}
+
+.text-off-feature{
+    color: white;
+}
+
+@media only screen and (max-width: 300px) {
+    .play1{
+        font-size: 30px;
+        text-align: center;
+    }
+  }
