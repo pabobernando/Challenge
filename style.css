@@ -11,14 +11,19 @@
     justify-content: space-around;
 }
 
-h1{
+.play1{
     font-size: 3rem;
-    margin-top: 313.7px ;
     color: white;
+    margin-top: 313.7px;
     margin-bottom: 57.28px;
 }
 
-p{
+.experience{
+    text-align: center;
+    color: white;
+    margin-bottom:24.62px;
+}
+.thesto{
     text-align: center;
     color: white;
     margin-bottom: 24.62px;
@@ -109,7 +114,7 @@ h3{
 }
 
 #carouselExampleIndicators{
-    border: 1px solid greenyellow;
+    
     text-align: center;
     align-items: center;
     position: relative;
@@ -120,11 +125,11 @@ h3{
 img{
     text-align: center;
     align-items: center;
-    border: 1px solid red;
+    
 }
 
 .bungkusbatu{
-    border: 1px solid yellow;
+    
     text-align: center;
     align-items: center;
     display: block;
@@ -133,5 +138,25 @@ img{
 
 .container5{
     background-image: url(./features.jpg);
-
+    background-size: cover;
 }
+
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+
+.carousel-control-next-icon{
+    margin-right: -170.82px;
+}
+
+.carousel-control-prev-icon{
+    margin-left: -170.82px;
+}
+
+.d-block{
+    width: 858px;
+    height: 400px;
+}
+
