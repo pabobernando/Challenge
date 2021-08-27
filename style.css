@@ -23,7 +23,7 @@
     color: white;
     margin-bottom:24.62px;
 }
-.thesto{
+.thestor{
     text-align: center;
     color: white;
     margin-bottom: 24.62px;
@@ -173,9 +173,9 @@ img{
     color: white;
 }
 
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
     .play1{
         font-size: 30px;
         text-align: center;
     }
-  }
+  } */
