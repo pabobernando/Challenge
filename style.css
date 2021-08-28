@@ -45,6 +45,7 @@
 
 .container-fluid{
     text-align: center;
+    padding: 0;
 }
 
 .conto{
@@ -140,6 +141,8 @@ img{
     background-image: url(./features.jpg);
     background-size: cover;
     text-align: right;
+    padding-right: 15rem;
+    padding-top: 167.97px;
 }
 
 .carousel-indicators button{
@@ -162,7 +165,7 @@ img{
 }
 
 .feature1{
-    color: yellow;
+    color: #FFB548;
     
 }
 .FEATURES{
@@ -173,6 +176,38 @@ img{
     color: white;
 }
 
+
+.feature2{
+    color: #FFB548;
+}
+
+.feature3{
+    color: #FFB548;
+    padding-bottom: 255px;
+}
+
+.box7{
+    text-align: left;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.box8{
+    border: 1px solid red;
+}
+
+.ulatas{
+    list-style: none;;
+}
+
+ul li::before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
 /* @media only screen and (max-width: 300px) {
     .play1{
         font-size: 30px;
