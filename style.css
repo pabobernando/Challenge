@@ -140,8 +140,8 @@ img{
 .container5{
     background-image: url(./features.jpg);
     background-size: cover;
-    text-align: right;
-    padding-right: 15rem;
+    padding-right: 1rem;
+    padding-left: 50rem;
     padding-top: 167.97px;
 }
 
@@ -166,19 +166,23 @@ img{
 
 .feature1{
     color: #FFB548;
+    padding-bottom: 10px;
     
 }
 .FEATURES{
     color: white;
+    padding-bottom: 70.75px;
 }
 
 .text-off-feature{
     color: white;
+    padding-bottom: 27.75px;
 }
 
 
 .feature2{
     color: #FFB548;
+    padding-bottom: 100.71px;
 }
 
 .feature3{
@@ -186,8 +190,14 @@ img{
     padding-bottom: 255px;
 }
 
+.box6{
+
+padding-bottom: 259px;
+
+}
+
 .box7{
-    text-align: left;
+    
     border: 1px solid white;
     display: inline-block;
 }
@@ -236,6 +246,10 @@ ul.ulatas:before {
 
 ul.ulatas li p:first-child {
   display: inline;
+}
+
+ul.ulatas li {
+    margin-bottom: 1rem;
 }
 /* @media only screen and (max-width: 300px) {
     .play1{
