@@ -251,6 +251,11 @@ ul.ulatas li p:first-child {
 ul.ulatas li {
     margin-bottom: 1rem;
 }
+
+.background4{
+    color: white;
+    background-image: url(./requirements.png);
+}
 /* @media only screen and (max-width: 300px) {
     .play1{
         font-size: 30px;
