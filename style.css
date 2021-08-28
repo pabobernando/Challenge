@@ -196,18 +196,47 @@ img{
     border: 1px solid red;
 }
 
-.ulatas{
-    list-style: none;;
+ul.ulatas {
+  list-style: none;;
+  position: relative;
 }
 
-ul li::before {
-    content: "\2022";
-    color: green;
+ul.ulatas li:first-child::before {
+    border-radius: 100%;
+    content: " ";
+    background: white;
     font-weight: bold;
-    display: inline-block; 
-    width: 1em;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
     margin-left: -1em;
-  }
+}
+
+ul.ulatas li::before {
+    border-radius: 100%;
+    content: " ";
+    font-weight: bold;
+    border: 1px solid white;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: -1em;
+}
+
+ul.ulatas:before {
+    content: " ";
+    width: 2px;
+    height: 61%;
+    background: white;
+    position: absolute;
+    display: inline-block;
+    left: 22px;
+    margin-top: 10px;
+}
+
+ul.ulatas li p:first-child {
+  display: inline;
+}
 /* @media only screen and (max-width: 300px) {
     .play1{
         font-size: 30px;
