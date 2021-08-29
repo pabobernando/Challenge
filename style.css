@@ -260,6 +260,7 @@ ul.ulatas li {
     color: white;
     background-image: url(./requirements.png);
     padding-bottom: 207px;
+    background-size: cover;
 }
 
 .header3-4{
@@ -270,7 +271,6 @@ ul.ulatas li {
 
 .header1-4{
     color:white;
-    border: 1px solid red;
     padding-left: 133px;
     margin-bottom: 87.73px;
 }
@@ -281,6 +281,45 @@ ul.ulatas li {
 
 .bungkusbag5{
     background-color: black;
+    padding-top: 160px;
+}
+
+.top1{
+    margin-left: 100px;
+}
+
+.abc{
+  
+    padding-left: 130px;
+    margin-bottom: 29px;
+}
+
+.abcd{
+   
+    margin-bottom: 30px;
+}
+
+.abcde{
+    
+    padding-left: 90px;
+}
+
+.imgr{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+}
+
+.imgr1{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+}
+
+.imgr2{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
 }
 /* @media only screen and (max-width: 300px) {
 
