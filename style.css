@@ -62,7 +62,7 @@
 }
 
 .box1{
-    
+
     padding-bottom: 52.12px;
     align-items: center;
     justify-content: center;
@@ -72,14 +72,14 @@
 }
 
 .box2{
-    
+
     display: inline-block;
 }
 
 .box3{
     background-image: url(./the-games-bg.jpg);
     background-size: cover;
-    
+
     display: flex;
 }
 
@@ -90,7 +90,7 @@ h3{
 }
 
 .container3{
-  
+
     display: inline-block;
     margin-top: 254.81px;
     margin-left: 83.56px;
@@ -102,8 +102,8 @@ h3{
 }
 
 .container4{
-  
-    
+
+
     position: relative;
     background-size: cover;
     display: inline-block;
@@ -115,7 +115,7 @@ h3{
 }
 
 #carouselExampleIndicators{
-    
+
     text-align: center;
     align-items: center;
     position: relative;
@@ -126,11 +126,11 @@ h3{
 img{
     text-align: center;
     align-items: center;
-    
+
 }
 
 .bungkusbatu{
-    
+
     text-align: center;
     align-items: center;
     display: block;
@@ -167,7 +167,7 @@ img{
 .feature1{
     color: #FFB548;
     padding-bottom: 10px;
-    
+
 }
 .FEATURES{
     color: white;
@@ -197,7 +197,7 @@ padding-bottom: 259px;
 }
 
 .box7{
-    
+
     border: 1px solid white;
     display: inline-block;
 }
@@ -248,7 +248,12 @@ ul.ulatas li p:first-child {
 }
 
 ul.ulatas li {
-    margin-bottom: 1rem;
+   margin-bottom: 1rem;
+}
+.bg-cave {
+    background-image: url('./requirements.png');
+    color: white;
+    padding: 18rem 5rem;
 }
 
 .background4{
@@ -278,8 +283,5 @@ ul.ulatas li {
     background-color: black;
 }
 /* @media only screen and (max-width: 300px) {
-    .play1{
-        font-size: 30px;
-        text-align: center;
-    }
-  } */
+
+       text-align: center; } } */
