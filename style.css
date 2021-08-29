@@ -213,7 +213,6 @@ ul.ulatas {
 
 ul.ulatas li:first-child::before {
     border-radius: 100%;
-    content: " ";
     background: white;
     font-weight: bold;
     display: inline-block;
@@ -255,6 +254,28 @@ ul.ulatas li {
 .background4{
     color: white;
     background-image: url(./requirements.png);
+    padding-bottom: 207px;
+}
+
+.header3-4{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 54.29px;
+}
+
+.header1-4{
+    color:white;
+    border: 1px solid red;
+    padding-left: 133px;
+    margin-bottom: 87.73px;
+}
+
+.bungkusbag4{
+    padding-left: 121.77px;
+}
+
+.bungkusbag5{
+    background-color: black;
 }
 /* @media only screen and (max-width: 300px) {
     .play1{
