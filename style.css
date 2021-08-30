@@ -284,7 +284,8 @@ ul.ulatas li {
 }
 
 .bungkusbag5{
-    background-color: black;
+    background-image: url(./top-score-bg.png);
+    background-size: cover;
     padding-top: 160px;
 }
 
