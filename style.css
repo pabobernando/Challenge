@@ -326,6 +326,16 @@ ul.ulatas li {
     height: 30%;
     border-radius: 100%;
 }
+
+.bagian6{
+    display: block;
+    border: 1px solid red;
+    position: relative;
+}
+
+
+
+
 /* @media only screen and (max-width: 300px) {
 
        text-align: center; } } */
