@@ -145,7 +145,7 @@ img{
     background-image: url(./features.jpg);
     background-size: cover;
     padding-right: 1rem;
-    padding-left: 50rem;
+    
     padding-top: 167.97px;
 }
 
@@ -156,11 +156,11 @@ img{
 }
 
 .carousel-control-next-icon{
-    margin-right: -170.82px;
+    margin-right: -200px;
 }
 
 .carousel-control-prev-icon{
-    margin-left: -170.82px;
+    margin-left: -150px;
 }
 
 .d-block{
@@ -275,8 +275,10 @@ ul.ulatas li {
 
 .header1-4{
     color:white;
-    padding-left: 133px;
+    padding-left: 0px;
     margin-bottom: 87.73px;
+    font-size: 56px;
+    
 }
 
 .bungkusbag4{
@@ -284,9 +286,10 @@ ul.ulatas li {
 }
 
 .bungkusbag5{
-    background-image: url(./top-score-bg.png);
+    background-color: black;
     background-size: cover;
     padding-top: 160px;
+
 }
 
 .top1{
@@ -329,11 +332,57 @@ ul.ulatas li {
 
 .bagian6{
     display: block;
-    border: 1px solid red;
     position: relative;
 }
 
+.box7{
+   border: 0;
+    display: flex;
+    justify-content: left;
+}
 
+.height6{
+    height: 55px;
+    margin-left: 17.22px;
+}
+
+.jarak{
+    padding-top: 135.97px;
+}
+
+.os{
+    font-size: 24px;
+    text-align: center;
+}
+
+.fl{
+    display: flex;
+    border: 1px solid red;
+    text-align: center;
+    
+}
+
+.fk{
+    
+    text-decoration: none;
+    padding-left: 32px;
+    list-style: none;
+}
+.fo{
+    padding-left: 347px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    border: 1px solid red;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bungkusbox{
+    border: 1px solid white;
+}
 
 
 /* @media only screen and (max-width: 300px) {
