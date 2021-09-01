@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 
@@ -79,8 +80,7 @@
 .box3{
     background-image: url(./the-games-bg.jpg);
     background-size: cover;
-
-    display: flex;
+    padding: 25rem 4rem;
 }
 
 h1{
@@ -144,9 +144,7 @@ img{
 .container5{
     background-image: url(./features.jpg);
     background-size: cover;
-    padding-right: 1rem;
-    
-    padding-top: 167.97px;
+    padding: 25rem 0rem;
 }
 
 .carousel-indicators button{
@@ -210,50 +208,6 @@ padding-bottom: 259px;
     border: 1px solid red;
 }
 
-ul.ulatas {
-  list-style: none;;
-  position: relative;
-}
-
-ul.ulatas li:first-child::before {
-    border-radius: 100%;
-    background: white;
-    font-weight: bold;
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    margin-left: -1em;
-}
-
-ul.ulatas li::before {
-    border-radius: 100%;
-    content: " ";
-    font-weight: bold;
-    border: 1px solid white;
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    margin-left: -1em;
-}
-
-ul.ulatas:before {
-    content: " ";
-    width: 2px;
-    height: 61%;
-    background: white;
-    position: absolute;
-    display: inline-block;
-    left: 22px;
-    margin-top: 10px;
-}
-
-ul.ulatas li p:first-child {
-  display: inline;
-}
-
-ul.ulatas li {
-   margin-bottom: 1rem;
-}
 .bg-cave {
     background-image: url('./requirements.png');
     color: white;
@@ -302,16 +256,6 @@ ul.ulatas li {
     margin-bottom: 29px;
 }
 
-.abcd{
-   
-    margin-bottom: 30px;
-}
-
-.abcde{
-    margin-bottom: 147px;
-    padding-left: 90px;
-}
-
 .imgr{
     width: 30%;
     height: 30%;
@@ -358,7 +302,7 @@ ul.ulatas li {
 .fl{
     display: flex;
     border: 1px solid red;
-    text-align: center;
+    
     
 }
 
@@ -372,7 +316,7 @@ ul.ulatas li {
     padding-left: 347px;
     text-decoration: none;
     list-style: none;
-    text-align: center;
+  
     border: 1px solid red;
 }
 a{
@@ -384,6 +328,87 @@ a{
     border: 1px solid white;
 }
 
+.bungkuspertama{
+    border: 1px solid white;
+    display: flex;
+}
+
+.bb{
+    border-bottom: 2px solid white;
+}
+
+.fa-youtube{
+    color: red;
+    
+}
+
+.card {
+    position: relative;
+}
+
+.to-right-top {
+    position: absolute;
+    color: white;
+    right: 10px;
+    top: 10px;
+}
+
+.card .card-body .message {
+    padding-left: 80px;
+}
+
+.card .card-body .message::after {
+    clear: both;
+}
+
+.message{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    margin-top: 18px;
+    height: 43%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline > li:before {
+    margin-top: 18px;
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+a[data-bs-toggle] {
+    font-size: 2rem;
+    color: #FFB548;
+}
+
+p.multi-collapse {
+    color: white;
+}
 
 /* @media only screen and (max-width: 300px) {
 
