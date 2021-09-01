@@ -154,7 +154,7 @@ img{
 }
 
 .carousel-control-next-icon{
-    margin-right: -200px;
+    margin-right: -150px;
 }
 
 .carousel-control-prev-icon{
@@ -410,6 +410,11 @@ p.multi-collapse {
     color: white;
 }
 
-/* @media only screen and (max-width: 300px) {
+@media only screen and (max-width: 634px){
+    .header1-4{
+        font-size: 1rem;
+        text-align: left;
+    }
+}
 
-       text-align: center; } } */
+       
